@@ -12,7 +12,6 @@ if (k < 0)
 {
 k = (k * -1);
 }
-else
 {
 _putchar(k + '0');
 }
