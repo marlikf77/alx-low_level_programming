@@ -1,21 +1,15 @@
 #include "main.h"
 /**
- * print_diagonal - prints diagonal lines
- * @n: input variables
- * Return: void
+ * print_line - prints straight lines
+ * @n: no of times
+ * Return: 0 always
  */
 void print_line(int n)
 {
-int i, j;
-if (n <= 0)
-_putchar('\n');
+int i;
 for (i = 0; i < n; i++)
 {
-for (j = 0; j < 1; j++)
-{
-_putchar(' ');
+	_putchar('_');
 }
-_putchar('\\');
 _putchar('\n');
-}
 }
