@@ -13,7 +13,7 @@ size_t nodes = 0;
 
 while (h)
 {
-if (!h->str == NULL)
+if (h->str == NULL)
 printf("[0] (nil)\n");
 else
 printf("[%d] %s\n", h->len, h->str);
