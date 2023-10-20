@@ -17,5 +17,5 @@ while (h != NULL)
 h = h->next;
 nodes++;
 }
-return(nodes);
+return (nodes);
 }
